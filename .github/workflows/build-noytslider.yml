@@ -1,4 +1,4 @@
-name: Build YTLitePlusEXTRA IPA without YTSlidet
+name: Build YTLitePlusEXTRA IPA without bugs
 on:
   workflow_dispatch:
     inputs:
