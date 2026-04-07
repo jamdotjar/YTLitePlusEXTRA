@@ -26,10 +26,11 @@ body:
 
   - type: textarea
     attributes:
-      label: Crashlog
+      label: Crashlog or video error popup log
       description: |
-        **Do not put text from crashlog, include zipped Crashlog_File.ips instead**
-
+        **Do not put text from crashlog, include zipped Crashlog_File.ips instead.**
+        **If it's a video error log from a popup, copy and paste it here.**
+        
         **To find and attach your crashlog:**
         1. Open the Analytics & Improvements section of Settings on the device.
         2. Tap Analytics Data.
@@ -37,13 +38,13 @@ body:
         4. Select the desired log.
         5. Tap the Share icon, save it in the Files app, then zip saved file.
       placeholder: |
-        Drag and drop your Crashlog.zip here.
+        Drag and drop your Crashlog.zip or copy and paste your video error log here.
     validations:
       required: false
 
   - type: checkboxes
     attributes:
-      label: Post Requisites
+      label: Post requisites
       description: |
         **IMPORTANT:** Read carefully before checking the box.
       options:
